@@ -1,15 +1,15 @@
 function Calculator() {
   this.read = function () {
-    this.a = parseFloat(prompt("Введіть перше число:"));
-    this.b = parseFloat(prompt("Введіть друге число:"));
+    this.firstValue = parseFloat(prompt("Введіть перше число:"));
+    this.secondValue = parseFloat(prompt("Введіть друге число:"));
   };
 
   this.sum = function () {
-    return this.a + this.b;
+    return this.firstValue + this.secondValue;
   };
 
   this.mul = function () {
-    return this.a * this.b;
+    return this.firstValue * this.secondValue;
   };
 }
 
